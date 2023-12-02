@@ -23,7 +23,7 @@
 
     //score1~10の合計の平均点
     $total = $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
-    echo $total % 10
+    echo $total / 10;
     ?>
   </p>
 </body>
