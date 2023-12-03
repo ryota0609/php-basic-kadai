@@ -12,7 +12,7 @@
       class Food {
         private $name, $price;
 
-        public function Show_price(int $price) {
+        public function Show_price() {
           $show_price = 250;
           echo $show_price . '<br>';
         }
@@ -26,7 +26,7 @@
       class Animal {
         private $name, $height, $weight;
 
-        public function show_height(int $height) {
+        public function show_height() {
           $show_height = 60;
           echo $show_height;
         }
